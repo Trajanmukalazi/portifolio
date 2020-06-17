@@ -1,0 +1,292 @@
+body{
+			margin: 0px;
+		}
+		
+		/*navigation bar*/
+
+		#navbar{
+			background-color: #be3144;
+			height: 60px;
+			width: 100%;
+			position: fixed;
+		}
+
+		#navbar header{
+			float: left;
+		}
+		
+		#navbar header p{
+			font-size: 16pt;
+			color: white;
+			font-weight: bolder;
+		}
+
+		#navbar ul{
+			display: flex;
+			flex-direction: row;
+			justify-content: flex-end;
+			align-items: center;
+			margin: 0px;
+			padding: 0px;
+			height: 100%;
+		}
+
+		#navbar ul li{
+			list-style: none;
+			display: list-item;
+		}
+
+		#navbar ul li a{
+			display: block;
+			text-decoration: none;
+			padding: 18px;
+			color: white;
+			font-size: 16pt
+			
+		}
+/* hover is not working yet */
+		#navbar ul li a :hover{
+			color: black;
+		}
+
+
+		/*header section*/
+
+		#welcome-section{
+			background-color: #181719;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			height: 650px;
+		}
+
+		#welcome-section h1{
+			color: white;
+			margin: 0px;
+			display: block;
+			font-size: 35pt;
+			font-weight: bolder;
+		}
+
+		#welcome-section p{
+			color: #be3144;
+			margin: 0px;
+			display: block;
+			font-size: 20pt;
+			font-weight: bolder;
+		}
+
+
+		/*about section*/
+
+		#about{
+			height: 650px;
+			
+		}
+		
+		#me{
+			text-align: center;
+		}
+
+		#me img{
+			width: 150px;
+			border-radius: 10cm;
+			height: 180px;
+		}
+
+		#me p{
+			font-size: 13pt;
+			padding: 10px
+		}
+
+		#about h3{
+			text-align: center;
+		}
+		#icons{
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: center;
+		}
+
+		#icons img{
+			width: 150px;
+		}
+
+		/*projects section or work*/
+
+		#projects{
+			background-color: #45567d;
+			display: flex;
+			flex-direction: column;
+			text-align: center;
+			justify-content: center;
+			align-items: center;
+			height: 500px;
+		}
+
+		#projects h2{
+			margin: 0px;
+			text-align: center;
+
+		}
+
+		#project-tile{
+			
+			width: 200px;
+			height: 200px;
+		}
+
+		
+
+
+		/*projects section or work*/
+
+		#contact{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			background-color: #303841;;
+			height: 500px;
+			width: 100%;
+		}
+
+		#contact h2{
+			color: #be3144;
+			font-weight: bolder;
+			font-size: 25pt;
+			margin: 25px 0px 0px 0px;
+		}
+
+		#contact p{
+			margin: 0px 0px 25px 0px;
+			color: white;
+			font-size: 12pt;
+		}
+
+		#contact ul{
+			display: flex;
+			flex-direction: row;
+			
+		}
+
+		/*@media(max-width: 600px){
+			#contact ul{
+			display: flex;
+			flex-direction: column;
+		}*/
+
+		#contact ul li{
+			list-style: none;
+			display: list-item;
+
+		}
+
+		#contact ul li a{
+			text-decoration: none;
+			color: white;
+			font-weight: bold;
+			font-size: 16pt;
+			padding: 30px 20px 20px 20px;
+		}
+
+		#contact ul li a:hover{
+			color: #be3144;
+			margin-top: 10px;
+			padding: 60px 20px 20px 20px;
+		}
+
+		
+
+
+		/*footer section*/
+
+		footer{
+			background-color: #303841;
+			color: white;
+			height: 50px;
+			margin: 0px;
+			display: flex;
+			justify-content: flex-end;
+			align-items: center;
+		}
+
+		footer p{
+			
+			margin: 0px;
+		}
+
+
+		@media(max-width: 500px){
+
+		#navbar header{
+			text-align: center;
+		}
+		
+		#navbar ul{
+			display: flex;
+			flex-direction: row;
+			justify-content: flex-end;
+			align-items: center;
+			margin: 0px;
+			padding: 0px;
+			height: 100%;
+		}
+
+		#about{
+			height: 1200px;
+			
+		}
+
+		#icons{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
+
+		#contact ul{
+			display: flex;
+			flex-direction: column;
+		}
+
+		#contact ul li a{
+			margin: 5px;
+			padding: 5px;
+
+		}
+
+		@media(max-width: 300px){
+			
+		#navbar{
+			height: 100px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
+
+		#navbar header p{
+			margin-bottom: 0px;
+		}
+
+		#navbar ul li a{
+			padding: 10px;
+		}
+
+		#welcome-section{
+			text-align: center;
+		}
+
+		#about{
+			height: 1250px;
+			
+		}
+
+		#contact{
+			text-align: center;
+		}
+		
+	}}
