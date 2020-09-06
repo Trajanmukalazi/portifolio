@@ -19,6 +19,9 @@ body{
 			font-size: 16pt;
 			color: white;
 			font-weight: bolder;
+			border: 2px solid bold;
+			border-radius: 2cm;
+			border-color: white;
 		}
 
 		#navbar ul{
@@ -82,7 +85,7 @@ body{
 
 		#about{
 			height: 650px;
-			
+			background-color: white;
 		}
 		
 		#me{
